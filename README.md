@@ -75,6 +75,7 @@ The dataset is provided from the **CS 4210 SP26 Kaggle competition**.
 - Training accuracy steadily increased to **~99%**
 - Validation accuracy peaked at approximately **83–84%**
 - Training vs Validation Accuracy
+
 ![Accuracy](images/acc.png)
 
 This gap indicates **moderate overfitting**, which was mitigated using:
@@ -87,6 +88,7 @@ This gap indicates **moderate overfitting**, which was mitigated using:
 - Training loss consistently decreased
 - Validation loss improved initially, then plateaued and slightly increased
 - Training vs Validation Loss
+
 ![Loss](images/loss.png)
 
 This confirms that:
@@ -94,6 +96,7 @@ This confirms that:
 - further training mainly leads to **overfitting rather than generalization gains**
 
 ### Confusion Matrix
+
 ![Confusion Matrix](images/cm.png)
 
 #### Key Observations:
