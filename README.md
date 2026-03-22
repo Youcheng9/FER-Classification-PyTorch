@@ -75,7 +75,7 @@ The dataset is provided from the **CS 4210 SP26 Kaggle competition**.
 - Training accuracy steadily increased to **~99%**
 - Validation accuracy peaked at approximately **83–84%**
 - Training vs Validation Accuracy
-![Accuracy](images/accuracy.png)
+![Accuracy](images/acc.png)
 
 This gap indicates **moderate overfitting**, which was mitigated using:
 - data augmentation
@@ -94,7 +94,7 @@ This confirms that:
 - further training mainly leads to **overfitting rather than generalization gains**
 
 ### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](images/cm.png)
 
 #### Key Observations:
 - **Happiness (Class 1)** is the easiest class to classify
